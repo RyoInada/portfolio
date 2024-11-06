@@ -13,7 +13,7 @@ export default function Home() {
     <div className="page">
       <header className="header">
         <ModeSwitch></ModeSwitch>
-        <Drawer id="drawer" btn_title="open">
+        <Drawer id="drawer">
           <div className="drawer--content">
             <Anchor
               className="drawer--content__link"

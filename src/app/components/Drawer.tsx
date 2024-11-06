@@ -4,11 +4,10 @@ import MicroModal from "micromodal";
 
 interface DrawerProps {
   id: string;
-  btn_title: string;
   children: React.ReactNode;
 }
 
-const Drawer: React.FC<DrawerProps> = ({ id, btn_title, children }) => {
+const Drawer: React.FC<DrawerProps> = ({ id, children }) => {
   useEffect(() => {
     MicroModal.init(); // モーダルの初期化
   }, []);

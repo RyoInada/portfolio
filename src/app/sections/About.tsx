@@ -24,21 +24,23 @@ const About = () => {
   const ref_right = useRef<HTMLDListElement>(null);
   useEffect(() => {
     Gsap.registerPlugin(ScrollTrigger);
-    const fadeIn = (elm: any) => {
-      Gsap.to(elm, {
-        startAt: {
-          y: 30,
-          opacity: 0,
-        },
-        y: 0,
-        opacity: 1,
-        duration: 1,
-        scrollTrigger: {
-          start: "top center+=25%",
-          trigger: elm,
-          scrub: false,
-        },
-      });
+    const fadeIn = (elm: HTMLDivElement | HTMLDListElement | null) => {
+      if (elm != null) {
+        Gsap.to(elm, {
+          startAt: {
+            y: 30,
+            opacity: 0,
+          },
+          y: 0,
+          opacity: 1,
+          duration: 1,
+          scrollTrigger: {
+            start: "top center+=25%",
+            trigger: elm,
+            scrub: false,
+          },
+        });
+      }
     };
     if (ref_left.current != null) {
       const element = ref_left.current.querySelector(".about-image");

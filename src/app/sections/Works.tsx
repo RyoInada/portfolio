@@ -10,7 +10,7 @@ const Works = () => {
   const ref_slider = useRef<HTMLDivElement>(null);
   useEffect(() => {
     Gsap.registerPlugin(ScrollTrigger);
-    const fadeIn = (elm: any) => {
+    const fadeIn = (elm: HTMLDivElement | null) => {
       Gsap.to(elm, {
         startAt: {
           y: 30,
