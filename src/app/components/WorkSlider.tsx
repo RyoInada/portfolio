@@ -66,14 +66,14 @@ export default function BasicSlider() {
         </Work>
       </SwiperSlide>
       <SwiperSlide key={2}>
-        <Work id="apego" title="APEGO" img={ap}>
+        <Work id="moltonbrown" title="moltonbrown" img={mb}>
           <WorkDetail
-            title="APEGO ONLINE GREEN SHOP"
-            img={ap}
+            title="MOLTON BRWON"
+            img={mb}
             pf="Shopify"
             lang="HTML,CSS,Javascript,Liquid"
-            text="サイト全体の構築と一部ディレクションを担当しました。Shopifyの有料テーマimpulseをベースに構築。ディレクションを一部担当したことや、機能的なカスタマイズを多く入れた点で成長につながりました。(在庫なしカテゴリの動的非表示、カートでの立札メッセージカード機能etc...)"
-            url="https://apego.jp/"
+            text="サイト全体とLPの構築を担当しました。また、公開後カスタマイズも多数行いました。Shopifyの有料テーマimpulseをベースに構築。デザインが凝っていた点と、数え切れないほどの機能的なカスタマイズを施しました。中でもカートでのメッセージカード機能、マイページカスタマイズ、カート内のオプション追加機能などが多数の制御が必要で勉強になりました。"
+            url="https://www.moltonbrown.co.jp/"
           ></WorkDetail>
         </Work>
       </SwiperSlide>
@@ -114,17 +114,18 @@ export default function BasicSlider() {
         </Work>
       </SwiperSlide>
       <SwiperSlide key={6}>
-        <Work id="moltonbrown" title="moltonbrown" img={mb}>
+        <Work id="apego" title="APEGO" img={ap}>
           <WorkDetail
-            title="MOLTON BRWON"
-            img={mb}
+            title="APEGO ONLINE GREEN SHOP"
+            img={ap}
             pf="Shopify"
             lang="HTML,CSS,Javascript,Liquid"
-            text="サイト全体とLPの構築を担当しました。また、公開後カスタマイズも多数行いました。Shopifyの有料テーマimpulseをベースに構築。デザインが凝っていた点と、数え切れないほどの機能的なカスタマイズを施しました。中でもカートでのメッセージカード機能、マイページカスタマイズ、カート内のオプション追加機能などが多数の制御が必要で勉強になりました。"
-            url="https://www.moltonbrown.co.jp/"
+            text="サイト全体の構築と一部ディレクションを担当しました。Shopifyの有料テーマimpulseをベースに構築。ディレクションを一部担当したことや、機能的なカスタマイズを多く入れた点で成長につながりました。(在庫なしカテゴリの動的非表示、カートでの立札メッセージカード機能etc...)"
+            url="https://apego.jp/"
           ></WorkDetail>
         </Work>
       </SwiperSlide>
+
       <SwiperSlide key={7}>
         <Work id="pigeon" title="pigeon" img={pg}>
           <WorkDetail
