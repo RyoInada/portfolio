@@ -7,13 +7,13 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 
-import ap from "../images/ap.webp";
+// import ap from "../images/ap.webp";
 import az from "../images/az.webp";
 import ci from "../images/ci.webp";
 import lt from "../images/lt.webp";
 import mb from "../images/mb.webp";
-import pg from "../images/pg.webp";
-import pv from "../images/pv.webp";
+// import pg from "../images/pg.webp";
+// import pv from "../images/pv.webp";
 import tc from "../images/tc.webp";
 import ye from "../images/ye.webp";
 import zk from "../images/zk.webp";
