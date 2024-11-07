@@ -6,16 +6,20 @@
   --foreground_2: rgba(53, 53, 53, 0.2);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #353535;
     --foreground: #e5e5e0e3;
     --foreground_2: rgba(229, 229, 224, 0.2);
   }
-  .c-mode-switch svg {
+  [data-color-mode="dark"] .c-mode-switch svg {
     fill: var(--foreground);
   }
-}
+
+  [data-color-mode="light"] .c-mode-switch svg {
+    fill: var(--background);
+  }
+} */
 
 [data-color-mode="dark"] {
   --background: #353535;
@@ -25,6 +29,10 @@
 
 [data-color-mode="dark"] .c-mode-switch svg {
   fill: var(--foreground);
+}
+
+[data-color-mode="light"] .c-mode-switch svg {
+  fill: var(--background);
 }
 
 html,
