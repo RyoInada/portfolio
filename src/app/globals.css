@@ -689,6 +689,7 @@ a {
   font-weight: normal;
   text-align: center;
   margin: 60px 0 40px;
+  opacity: 0;
 }
 /* components */
 
@@ -720,6 +721,7 @@ a {
   height: 200px;
   overflow: hidden;
   border-radius: 2.5%;
+  opacity: 0;
 }
 
 .about-image {
@@ -734,6 +736,7 @@ a {
   /* margin-top: 40px; */
   width: 400px;
   max-width: 60%;
+  opacity: 0;
 }
 
 .about-list--title {
@@ -802,11 +805,16 @@ a {
   width: 20px;
 }
 
+.skill-wrap {
+  opacity: 0;
+}
+
 .work-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1px;
   width: 90%;
+  opacity: 0;
 }
 
 .work-slider.swiper {
@@ -964,6 +972,7 @@ a {
   display: flex;
   gap: 20px;
   margin-bottom: 60px;
+  opacity: 0;
 }
 
 .contact-list--link {
@@ -1039,6 +1048,105 @@ a {
 
 .modal__overlay {
   background: var(--foreground_2);
+}
+
+.c-section.work-page {
+  width: 1200px;
+  max-width: 90%;
+  margin: 100px auto;
+}
+
+.work-page .c-section-title {
+  margin: 0 0 120px;
+}
+
+.work-page-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px 6%;
+}
+
+.c-work-card {
+  width: 47%;
+  color: var(--foreground);
+  opacity: 0;
+}
+
+.c-work-card:nth-of-type(odd) {
+  position: relative;
+  top: -30px;
+}
+
+.c-work-card:nth-of-type(even) {
+  position: relative;
+  top: 30px;
+}
+
+.c-work-card--img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.c-work-card--title {
+  font-size: 2.4rem;
+  margin-bottom: 5px;
+}
+
+.c-work-card--pf,
+.c-work-card--lang,
+.c-work-card--text {
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+}
+
+.c-work-card--viewmore {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  margin: 30px 0 0 auto;
+  padding: 2px 20px;
+  border-radius: 25px;
+  background: var(--foreground);
+  font-size: 1.6rem;
+  color: var(--background);
+  border: 1px solid var(--foreground);
+}
+
+.c-work-card--viewmore:hover {
+  background: var(--background);
+  color: var(--foreground);
+  border: 1px solid var(--foreground);
+}
+
+.c-work-card--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* transform: scale(1.1); */
+}
+
+.work-viewmore {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  margin: 30px auto 0;
+  padding: 2px 20px;
+  border-radius: 25px;
+  background: var(--foreground);
+  font-size: 1.6rem;
+  color: var(--background);
+  border: 1px solid var(--foreground);
+}
+
+.work-viewmore:hover {
+  background: var(--background);
+  color: var(--foreground);
+  border: 1px solid var(--foreground);
 }
 
 @media screen and (max-width: 900px) {
@@ -1195,5 +1303,43 @@ a {
   .skills-title {
     font-size: 1.4rem;
     padding: 2.5px 10px;
+  }
+  .c-section.work-page {
+    margin: 60px auto;
+  }
+
+  .work-page .c-section-title {
+    margin: 0px 0 60px;
+  }
+
+  .work-page-container {
+    gap: 60px;
+  }
+
+  .c-work-card {
+    width: 100%;
+  }
+
+  .c-work-card:nth-of-type(odd),
+  .c-work-card:nth-of-type(even) {
+    position: static;
+  }
+
+  .c-work-card--title {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+  }
+
+  .c-work-card--pf,
+  .c-work-card--lang,
+  .c-work-card--text {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+  }
+
+  .c-work-card--viewmore {
+    margin: 20px 0 0 auto;
+    padding: 2px 20px;
+    font-size: 1.4rem;
   }
 }

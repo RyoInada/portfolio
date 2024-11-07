@@ -39,7 +39,7 @@ const Skills = () => {
       <h2 className="c-section-title" ref={ref_title}>
         SKILLS
       </h2>
-      <div ref={ref_lang}>
+      <div ref={ref_lang} className="skill-wrap">
         <h3 className="skills-title">LANGUAGE</h3>
         <ul className="skills-list">
           <Skill skill_title="HTML5" skill_star={5}>
@@ -140,7 +140,7 @@ const Skills = () => {
           </Skill>
         </ul>
       </div>
-      <div ref={ref_fm}>
+      <div ref={ref_fm} className="skill-wrap">
         <h3 className="skills-title">FRAMEWORK</h3>
         <ul className="skills-list">
           <Skill skill_title="Node.js" skill_star={3}>
@@ -239,7 +239,7 @@ const Skills = () => {
           </Skill>
         </ul>
       </div>
-      <div ref={ref_cms}>
+      <div ref={ref_cms} className="skill-wrap">
         <h3 className="skills-title">CMS / PLATFORM</h3>
         <ul className="skills-list">
           <Skill skill_title="shopify" skill_star={4}>
@@ -317,7 +317,7 @@ const Skills = () => {
           </Skill>
         </ul>
       </div>
-      <div ref={ref_others}>
+      <div ref={ref_others} className="skill-wrap">
         <h3 className="skills-title">Others</h3>
         <ul className="skills-list others">
           <Skill skill_title="SEO" skill_star={3}>

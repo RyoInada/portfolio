@@ -4,6 +4,7 @@ import WorkSlider from "../components/WorkSlider";
 import Gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useRef, useEffect } from "react";
+import Link from "next/link";
 
 const Works = () => {
   const ref_title = useRef<HTMLDivElement>(null);
@@ -36,6 +37,9 @@ const Works = () => {
       </h2>
       <div className="work-container" ref={ref_slider}>
         <WorkSlider></WorkSlider>
+        <Link className="work-viewmore" href="/works">
+          VIEW MORE
+        </Link>
       </div>
     </section>
   );

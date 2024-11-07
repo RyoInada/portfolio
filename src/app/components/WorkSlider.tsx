@@ -35,7 +35,7 @@ export default function BasicSlider() {
       slidesPerView: 2,
       spaceBetween: 10,
     },
-    768: {
+    900: {
       slidesPerView: 4,
       spaceBetween: 30,
     },
@@ -113,7 +113,7 @@ export default function BasicSlider() {
           ></WorkDetail>
         </Work>
       </SwiperSlide>
-      <SwiperSlide key={6}>
+      {/* <SwiperSlide key={6}>
         <Work id="apego" title="APEGO" img={ap}>
           <WorkDetail
             title="APEGO ONLINE GREEN SHOP"
@@ -124,9 +124,9 @@ export default function BasicSlider() {
             url="https://apego.jp/"
           ></WorkDetail>
         </Work>
-      </SwiperSlide>
+      </SwiperSlide> */}
 
-      <SwiperSlide key={7}>
+      {/* <SwiperSlide key={7}>
         <Work id="pigeon" title="pigeon" img={pg}>
           <WorkDetail
             title="Pigeon 公式オンラインショップ"
@@ -137,7 +137,7 @@ export default function BasicSlider() {
             url="https://shop.pigeon.co.jp/"
           ></WorkDetail>
         </Work>
-      </SwiperSlide>
+      </SwiperSlide> */}
       <SwiperSlide key={8}>
         <Work id="timelsscomfort" title="timeless comfort" img={tc}>
           <WorkDetail
@@ -174,7 +174,7 @@ export default function BasicSlider() {
           ></WorkDetail>
         </Work>
       </SwiperSlide>
-      <SwiperSlide key={11}>
+      {/* <SwiperSlide key={11}>
         <Work id="pourvous" title="pourvous" img={pv}>
           <WorkDetail
             title="PourVous コーポレートサイト"
@@ -185,7 +185,7 @@ export default function BasicSlider() {
             url="https://www.pourvous.co.jp/corporate/"
           ></WorkDetail>
         </Work>
-      </SwiperSlide>
+      </SwiperSlide> */}
     </Swiper>
   );
 }

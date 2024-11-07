@@ -34,7 +34,7 @@ const WorkDetail: React.FC<WorkDetailProps> = ({
         target="_blank"
         rel="noopener"
       >
-        VIEW MORE
+        VIEW SITE
       </a>
     </div>
   );
