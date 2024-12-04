@@ -9,7 +9,7 @@ import "swiper/css/scrollbar";
 
 // import ap from "../images/ap.webp";
 import az from "../images/az.webp";
-import ci from "../images/ci.webp";
+// import ci from "../images/ci.webp";
 import lt from "../images/lt.webp";
 import mb from "../images/mb.webp";
 import fy from "../images/fy.webp";
