@@ -2,6 +2,7 @@
 import ap from "../images/ap.webp";
 import az from "../images/az.webp";
 import ci from "../images/ci.webp";
+import fy from "../images/fy.webp";
 import lt from "../images/lt.webp";
 import mb from "../images/mb.webp";
 import pg from "../images/pg.webp";
@@ -63,21 +64,30 @@ const WorksPage = () => {
         ></WorkCard>
 
         <WorkCard
-          title="You.en"
-          img={ye}
-          pf="Shopify"
-          lang="HTML,CSS,Javascript,Liquid"
-          text="サイト全体の構築を担当しました。Shopifyの有料テーマimpulseをベースに構築。翻訳アプリ・通貨変換アプリの使用を把握し挙動を制御するのが難しかったです。"
-          url="https://youen-jp.com/"
-        ></WorkCard>
-
-        <WorkCard
           title="AZUMA"
           img={az}
           pf="Shopify"
           lang="HTML,CSS,Javascript,Liquid"
           text="デザイン・サイト全体の構築・ディレクションの全てを担当しました。Shopifyの無料テーマDawnをベースに構築。アニメーションによる驚きや購入動線の単純さなど、クライアントのご要望をデザインに落とし込み、自分で実装した点で大きく成長できました。"
           url="https://www.azumabag.jp/"
+        ></WorkCard>
+
+        <WorkCard
+          title="4YOU"
+          img={fy}
+          pf="なし(apache server)"
+          lang="HTML,CSS,Javascript"
+          text="デザイン・サイト全体の構築・ディレクションの全てを担当しました。lolipopサーバー上にファイルを設置して作成しました。言語セレクターとgsapによるアニメーションを工夫しました。"
+          url="https://www.4you-lab.jp/"
+        ></WorkCard>
+
+        <WorkCard
+          title="You.en"
+          img={ye}
+          pf="Shopify"
+          lang="HTML,CSS,Javascript,Liquid"
+          text="サイト全体の構築を担当しました。Shopifyの有料テーマimpulseをベースに構築。翻訳アプリ・通貨変換アプリの使用を把握し挙動を制御するのが難しかったです。"
+          url="https://youen-jp.com/"
         ></WorkCard>
 
         <WorkCard

@@ -12,6 +12,7 @@ import az from "../images/az.webp";
 import ci from "../images/ci.webp";
 import lt from "../images/lt.webp";
 import mb from "../images/mb.webp";
+import fy from "../images/fy.webp";
 // import pg from "../images/pg.webp";
 // import pv from "../images/pv.webp";
 import tc from "../images/tc.webp";
@@ -78,6 +79,30 @@ export default function BasicSlider() {
         </Work>
       </SwiperSlide>
       <SwiperSlide key={3}>
+        <Work id="azuma" title="AZUMA" img={az}>
+          <WorkDetail
+            title="AZUMA"
+            img={az}
+            pf="Shopify"
+            lang="HTML,CSS,Javascript,Liquid"
+            text="デザイン・サイト全体の構築・ディレクションの全てを担当しました。Shopifyの無料テーマDawnをベースに構築。アニメーションによる驚きや購入動線の単純さなど、クライアントのご要望をデザインに落とし込み、自分で実装した点で大きく成長できました。"
+            url="https://www.azumabag.jp/"
+          ></WorkDetail>
+        </Work>
+      </SwiperSlide>
+      <SwiperSlide key={4}>
+        <Work id="foryou" title="4YOU" img={fy}>
+          <WorkDetail
+            title="4YOU"
+            img={fy}
+            pf="なし(apache server)"
+            lang="HTML,CSS,Javascript"
+            text="デザイン・サイト全体の構築・ディレクションの全てを担当しました。lolipopサーバー上にファイルを設置して作成しました。言語セレクターとgsapによるアニメーションを工夫しました。"
+            url="https://www.4you-lab.jp/"
+          ></WorkDetail>
+        </Work>
+      </SwiperSlide>
+      <SwiperSlide key={5}>
         <Work id="youen" title="You.en" img={ye}>
           <WorkDetail
             title="You.en"
@@ -89,19 +114,7 @@ export default function BasicSlider() {
           ></WorkDetail>
         </Work>
       </SwiperSlide>
-      <SwiperSlide key={4}>
-        <Work id="azuma" title="AZUMA" img={az}>
-          <WorkDetail
-            title=""
-            img={az}
-            pf="Shopify"
-            lang="HTML,CSS,Javascript,Liquid"
-            text="デザイン・サイト全体の構築・ディレクションの全てを担当しました。Shopifyの無料テーマDawnをベースに構築。アニメーションによる驚きや購入動線の単純さなど、クライアントのご要望をデザインに落とし込み、自分で実装した点で大きく成長できました。"
-            url="https://www.azumabag.jp/"
-          ></WorkDetail>
-        </Work>
-      </SwiperSlide>
-      <SwiperSlide key={5}>
+      <SwiperSlide key={6}>
         <Work id="zaisu" title="zaisu seikatsu" img={zs}>
           <WorkDetail
             title="座椅子生活"
@@ -113,32 +126,7 @@ export default function BasicSlider() {
           ></WorkDetail>
         </Work>
       </SwiperSlide>
-      {/* <SwiperSlide key={6}>
-        <Work id="apego" title="APEGO" img={ap}>
-          <WorkDetail
-            title="APEGO ONLINE GREEN SHOP"
-            img={ap}
-            pf="Shopify"
-            lang="HTML,CSS,Javascript,Liquid"
-            text="サイト全体の構築と一部ディレクションを担当しました。Shopifyの有料テーマimpulseをベースに構築。ディレクションを一部担当したことや、機能的なカスタマイズを多く入れた点で成長につながりました。(在庫なしカテゴリの動的非表示、カートでの立札メッセージカード機能etc...)"
-            url="https://apego.jp/"
-          ></WorkDetail>
-        </Work>
-      </SwiperSlide> */}
-
-      {/* <SwiperSlide key={7}>
-        <Work id="pigeon" title="pigeon" img={pg}>
-          <WorkDetail
-            title="Pigeon 公式オンラインショップ"
-            img={pg}
-            pf="Shopify"
-            lang="HTML,CSS,Javascript,Liquid"
-            text="サイト全体の構築を担当しました。Shopifyの有料テーマimpulseをベースに構築。追従フッター、楽天のようなデザインのカテゴリ一覧などのカスタマイズで苦労しました。"
-            url="https://shop.pigeon.co.jp/"
-          ></WorkDetail>
-        </Work>
-      </SwiperSlide> */}
-      <SwiperSlide key={8}>
+      <SwiperSlide key={7}>
         <Work id="timelsscomfort" title="timeless comfort" img={tc}>
           <WorkDetail
             title="TIMELESS COMFORT"
@@ -150,19 +138,7 @@ export default function BasicSlider() {
           ></WorkDetail>
         </Work>
       </SwiperSlide>
-      <SwiperSlide key={9}>
-        <Work id="colony" title="colony interactive" img={ci}>
-          <WorkDetail
-            title="Colony Interactive 採用ページ"
-            img={ci}
-            pf="Wordpress"
-            lang="HTML,CSS(Tailwind),Javascript,PHP"
-            text="サイト全体の構築を担当しました。CSSフレームワークTailwind.cssを初めて業務レベルで使用した点が面白かったです。"
-            url="https://recruit.colony-i.com/"
-          ></WorkDetail>
-        </Work>
-      </SwiperSlide>
-      <SwiperSlide key={10}>
+      <SwiperSlide key={8}>
         <Work id="zokujin" title="zokujin" img={zk}>
           <WorkDetail
             title="Zokujin"
@@ -174,18 +150,6 @@ export default function BasicSlider() {
           ></WorkDetail>
         </Work>
       </SwiperSlide>
-      {/* <SwiperSlide key={11}>
-        <Work id="pourvous" title="pourvous" img={pv}>
-          <WorkDetail
-            title="PourVous コーポレートサイト"
-            img={pv}
-            pf="futureshop(FTP利用)"
-            lang="HTML,CSS,Javascript,PHP"
-            text="コーポレートサイト全体の構築を担当しました。PHPで実装するお問い合わせフォームを含めフルスクラッチです。コーディング納期が3日間だったため作業スピードと集中力が鍛えられました。"
-            url="https://www.pourvous.co.jp/corporate/"
-          ></WorkDetail>
-        </Work>
-      </SwiperSlide> */}
     </Swiper>
   );
 }
